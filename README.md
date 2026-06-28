@@ -1,12 +1,11 @@
 # 🤖 ERLC Auto-Rob Tool (Expanded & Reworked) 🛠️
 <img width="810" height="606" alt="image" src="https://github.com/user-attachments/assets/4c603fcf-76a1-443a-b540-6b2e58e8adc0" />
 
-A modernized, community-driven FULL rework of the original [ER:LC Auto-Rob Tool](https://github.com/IceMinisterq/ERLC-Auto-Rob-Tool)
+A modernized, community-driven FULL rework of the original [ER:LC Auto-Rob Tool](https://github.com/IceMinisterq/ERLC-Auto-Rob-Tool).
 
 Built using **.NET 9 (WPF)** and **OpenCV**, this tool focuses on ease of use, reliable detection, and precise timing adjustments.
 
-
-🎨 **Made by** *[vornex.](https://blessing.wtf/ex)*  - with love <3
+🎨 **Made by** *[vornex.](https://vornex.cc)*  - with love <3
 
 ---
 
@@ -14,7 +13,8 @@ Built using **.NET 9 (WPF)** and **OpenCV**, this tool focuses on ease of use, r
 *   ⚙️ **Advanced Settings Menu** – Configure wide scan areas, adjustment delays, and custom hotkeys directly from the interface.
 *   💾 **Persistent Configuration** – Preferences and hotkeys save automatically to `config.json` on startup.
 *   🧠 **Automated Memory Solver** – Uses grayscale template matching to read memory minigame numbers in real-time and automatically inputs the pattern across multiple consecutive rounds.
-*   ⏱️ **Live Cooldown & Overlay Support** – Track your active cooldown timers through the main UI or a floating mini-overlay.
+*   ⏱️ **Live Cooldown & Overlay Support** – Track your active cooldown timers through the main UI or a floating mini-overlay. Supports customizable hotkey displays, corrected robbery slots, and status indicators for all actions.
+*   🔔 **Startup Update Checker** – Automatically queries the GitHub API on launch to verify you are running the latest release, prompting you with a download link if an update is found.
 *   🔊 **Audio Feedback** – Instant sound effects play when actions begin and when cooldowns finish.
 
 ---
@@ -36,7 +36,7 @@ Built using **.NET 9 (WPF)** and **OpenCV**, this tool focuses on ease of use, r
 ## ⚠️  Display Requirements
 Because this tool relies on screen coordinate tracking and pixel pattern recognition, your system **must** meet the following display settings for the scanners to align:
 
-1.  **Monitor Resolution:** Set your monitor and Roblox game resolution to **1920x1080**.
+1.  **Monitor Resolution:** Set your monitor and Roblox game resolution to **1920x1080**. (An in-app notification will warn you on launch if your screen resolution differs).
 2.  **Windows Display Scaling:** Set your Windows DPI scaling to **100%** (Settings -> System -> Display -> Scale & Layout).
 3.  **HDR (High Dynamic Range):** **DISABLED**. HDR dynamically alters pixel brightness and contrast, which will cause image matching to fail.
 4.  **Roblox Window Mode:** Fullscreen or maximized windowed mode at 1080p.
